@@ -10,6 +10,7 @@ namespace UniversityCourseandResultManagement.Models
     public class Department
     {
         public int Id { get; set; }
+
         [Display(Name = "Department Code")]
         [Required(ErrorMessage = "Please Insert Department Code")]
         [StringLength(7, MinimumLength = 2, ErrorMessage = "Department Code Should be 2 to 7 Characters Long")]
